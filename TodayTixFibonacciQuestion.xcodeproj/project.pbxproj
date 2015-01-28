@@ -14,6 +14,7 @@
 		5C052ADE1A786AD60016B6AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C052ADD1A786AD60016B6AA /* Images.xcassets */; };
 		5C052AE11A786AD60016B6AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C052ADF1A786AD60016B6AA /* LaunchScreen.xib */; };
 		5C052AED1A786AD70016B6AA /* TodayTixFibonacciQuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C052AEC1A786AD70016B6AA /* TodayTixFibonacciQuestionTests.m */; };
+		5C052AF81A786D7B0016B6AA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C052AF71A786D7B0016B6AA /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5C052AE61A786AD60016B6AA /* TodayTixFibonacciQuestionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayTixFibonacciQuestionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C052AEB1A786AD70016B6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C052AEC1A786AD70016B6AA /* TodayTixFibonacciQuestionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayTixFibonacciQuestionTests.m; sourceTree = "<group>"; };
+		5C052AF61A786D7B0016B6AA /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5C052AF71A786D7B0016B6AA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				5C052AD51A786AD60016B6AA /* AppDelegate.m */,
 				5C052AD71A786AD60016B6AA /* ViewController.h */,
 				5C052AD81A786AD60016B6AA /* ViewController.m */,
+				5C052AF61A786D7B0016B6AA /* TableViewController.h */,
+				5C052AF71A786D7B0016B6AA /* TableViewController.m */,
 				5C052ADA1A786AD60016B6AA /* Main.storyboard */,
 				5C052ADD1A786AD60016B6AA /* Images.xcassets */,
 				5C052ADF1A786AD60016B6AA /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				5C052AD91A786AD60016B6AA /* ViewController.m in Sources */,
 				5C052AD61A786AD60016B6AA /* AppDelegate.m in Sources */,
 				5C052AD31A786AD60016B6AA /* main.m in Sources */,
+				5C052AF81A786D7B0016B6AA /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
