@@ -16,12 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if((int)self.numRows < 46){
-        self.fibLabel.text = @"FIbonacci numbers supported on 32 and 64 bit iPhones";
-    }
-    else if ((int)self.numRows >= 46 && (int)self.numRows < 92){
-        self.fibLabel.text = @"FIbonacci numbers not supported on 32 bit iPhones but are supported on 64 bit iPhones";
-    }
+    self.fibLabel.text = [NSString stringWithFormat:@"A fibonacci series of %llu numbers was calculated", self.numRows] ;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,7 +38,8 @@
     
     NSInteger rowNum =  indexPath.row;
     
-    cell.textLabel.text = [[@(rowNum+1) stringValue] stringByAppendingString:@": Fib number is->"];
+    cell.textLabel.text = [@"#" stringByAppendingString:[@(rowNum+1) stringValue]];
+    cell.detailTextLabel.numberOfLines = 0;
     cell.detailTextLabel.text = [self.fibArray[rowNum] stringValue];
     return cell;
 }

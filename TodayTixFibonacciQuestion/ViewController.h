@@ -12,5 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *numField;
 
+@property (weak, nonatomic) IBOutlet UITextField *numField2;
+
 @end
 
