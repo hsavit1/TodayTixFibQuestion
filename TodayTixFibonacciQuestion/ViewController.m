@@ -80,6 +80,8 @@
     }
 }
 
+//this solution uses a classic recursive method
+//supports up the 92nd term (maximum for unsigned long long)
 -(unsigned long long)calvulateFibonacci:(unsigned long long)n{
 
     if(n <= 2){
@@ -97,6 +99,10 @@
     
 }
 
+//this solution uses Binet's formula
+//http://mathworld.wolfram.com/BinetsFibonacciNumberFormula.html
+//supports large numbers with percision up to the 187th term.
+//NSDecimalNumber supports up to 160 digits (maximum for NSDecimalNumber)
 -(NSDecimalNumber*)calcFibImpercise:(int)number{
     
     NSDecimalNumber* squareRootOfFive = [NSDecimalNumber decimalNumberWithString: [[NSNumber numberWithDouble:sqrt(5)] stringValue]];
